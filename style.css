@@ -1,0 +1,53 @@
+/*  set global settings */ 
+body *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:black;
+    box-sizing: border-box;
+}
+
+/* set borders for the master page divs */
+div.master:not(#divmaincontainer):not(#divcontainer){
+    border: 1px solid turquoise;
+    margin-bottom: 2px;
+}
+
+#divmenu>#navmenu>#ulmenu{
+    margin: 5px;
+    
+}
+#divmenu>#navmenu>#ulmenu>li{
+    list-style-type: none;
+    display: inline;
+}
+
+/* style div main content */
+#divmaincontent{
+    display:flex;
+    flex-direction: row;
+    gap:0.5%;
+    
+}
+
+/* style div sidebar */
+#divsidebar{
+    width: 29.5%;
+    
+}
+
+/* style div content */
+#divcontent{
+    width: 70%;
+    
+}
+
+/* style footer */
+#divfooter{
+    height:30px;
+    
+}
+#divfooter>p{
+    margin: 5px;
+    text-align: center;
+    
+}
